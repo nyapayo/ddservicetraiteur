@@ -1,0 +1,18 @@
+.service {
+  height: 80px;
+}
+
+.kalamFont {
+  font-family: kalamFont;
+}
+
+@font-face {
+  font-family: kalamFont;
+  src: url('../../fonts/Kalam-Regular.ttf');
+}
+
+@media only screen and (max-width: 600px) {
+  #ceremonies {
+    font-size: 1em!important;
+  }
+}
