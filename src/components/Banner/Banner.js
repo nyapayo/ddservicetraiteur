@@ -17,19 +17,19 @@ const Banner = props => {
       <div className='w3-card w3-panel'>
         <h1 className='w3-text-blue kalamFont'>Contactez-nous directement</h1>
         <p>
-          Telephone: <a href='tel: +237-678-511-551' className='w3-small'>+237 678 511 551</a>
+          Telephone: <a href='tel: +237-678-511-551' className=''>+237 678 511 551</a>
         </p>
         <p>
-          SMS: <a href='sms: +237-678-511-551' className='w3-small'>+237 678 511 551</a>  
+          SMS: <a href='sms: +237-678-511-551' className=''>+237 678 511 551</a>  
         </p> 
         <p>
-          Email: <a href='mailto: siakajunior1997@gmail.com' className='w3-small'>siakajunior1997@gmail.com</a>
+          Email: <a href='mailto: siakajunior1997@gmail.com' className=''>siakajunior1997@gmail.com</a>
         </p>
         <p>
-          WhasApp: <span className='w3-tag w3-green w3-small'>+237 678 511 551</span>
+          WhasApp: <span className='w3-tag w3-green'>+237 678 511 551</span>
         </p>
         <p>
-          Facebook: <a href='' className='w3-small'>Link to Facebook page</a>
+          Facebook: <a href='' className=''>Link to Facebook page</a>
         </p>
       </div>
       <div className='w3-card'>
