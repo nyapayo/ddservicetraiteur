@@ -29,6 +29,8 @@
 	text-align: center;
 	background-color: #eee;
 	opacity: .8;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 /* 
@@ -43,11 +45,11 @@
 		min-height: 260px;
 	}
 	header#appHeader #appHeaderPresentation {
-		height: 140px;
+		height: 160px;
 		width: 90vw;
 	}
 	#appHeader #appHeaderPresentation #name {
-		font-size: 1.5em;
+		font-size: 1.6em;
 	}
 }
 
@@ -55,11 +57,11 @@
 	#appHeader {
 		height: 50vh;
 	}
+	#appHeader #appHeaderPresentation {
+		height: 190px;
+	}
 	#appHeader #appHeaderPresentation #name {
 		font-size: 2.5em;
-	}
-	header#appHeader #appHeaderPresentation {
-		height: 200px;
 	}
 }
 
@@ -74,14 +76,13 @@
 
 @media only screen and (min-width: 992px) {
 	#appHeader {
-		height: 70vh;
+		height: 60vh;
 	}
-	/* The size of: D&D Service-Traiteur */
+	#appHeader #appHeaderPresentation {
+		height: 250px;
+	}
 	#appHeader #appHeaderPresentation #name {
 		font-size: 4em;
-	}
-	header#appHeader #appHeaderPresentation {
-		height: 250px;
 	}
 }
 
