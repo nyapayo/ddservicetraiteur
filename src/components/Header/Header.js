@@ -15,8 +15,8 @@ const Header = (props) => {
 				</h1>
 				<p id='slogan'>
 					<i className='kalamFont'>
-						Vous satisfaire est notre plaisir!
-					</i>  
+						<strong>Vous satisfaire est notre plaisir!</strong>
+					</i>   
 					&#x1F609;
 				</p>
 			</div>

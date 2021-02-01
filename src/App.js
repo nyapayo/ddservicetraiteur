@@ -15,9 +15,11 @@ const App = (props) => {
 				{/* Container(padding-left and right) for these components on phone i.e maxWidth: 600px */}
 				{/* Que les composents ne soient pas collés au bord de l'ecran */}
 				<div className='w3-container'>
+					<hr />
 					<Ceremonies />
 					<Contacts />
 					<Services />
+					<hr />
 					<Plats />
 				</div>					
 			</div>
