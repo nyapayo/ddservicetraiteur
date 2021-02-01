@@ -5,9 +5,9 @@ const Services = props => {
   return (
     <section className='w3-card' id='servicesSection'>
       <div className='w3-container w3-blue'>
-        <h1 className='hindFont'>Car nous vous proposons:</h1>
+        <h1 className='kalamFont'>Car nous vous proposons:</h1>
       </div>
-      <ul className='w3-ul hindFont'>
+      <ul className='w3-ul kalamFont'>
         <li><a href='#plats'>Cuisine(Africaine & Européenne)</a></li>
         <li><a href='#decoration'>Décoration</a></li>
         <li><a href='#patisserie'>Mini-Patisserie</a></li>
