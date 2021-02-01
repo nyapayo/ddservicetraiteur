@@ -1,12 +1,10 @@
 import React from 'react';
 import 'w3-css/w3.css';
 import Header from './components/Header/Header';
-import Banner from './components/Banner/Banner';
+import Ceremonies from './components/Ceremonies/Ceremonies';
+import Contacts from './components/Contacts/Contacts';
+import Services from './components/Services/Services';
 import Plats from './components/Plats/Plats';
-import Decoration from './components/Decoration/Decoration';
-import Chaises from './components/Chaises/Chaises';
-import Couverts from './components/Couverts/Couverts';
-import Tentes from './components/Tentes/Tentes';
 
 const App = (props) => {
 
@@ -14,12 +12,14 @@ const App = (props) => {
 		<main className=''>
 			<Header />
 			<div className='w3-content'>
-				<Banner />
-				<Plats />
-				<Decoration />
-				<Chaises />
-				<Couverts />
-				<Tentes />
+				{/* Container(padding-left and right) for these components on phone i.e maxWidth: 600px */}
+				{/* Que les composents ne soient pas collés au bord de l'ecran */}
+				<div className='w3-container'>
+					<Ceremonies />
+					<Contacts />
+					<Services />
+					<Plats />
+				</div>					
 			</div>
 		</main>
 	);

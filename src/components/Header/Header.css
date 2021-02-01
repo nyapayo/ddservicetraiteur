@@ -41,7 +41,7 @@
 @media only screen and (max-width: 600px) {
 	/* Background Element */
 	#appHeader {
-		height: 50vw;
+		height: 45vw;
 		min-height: 260px;
 	}
 	header#appHeader #appHeaderPresentation {
@@ -67,7 +67,7 @@
 
 @media only screen and (min-width: 768px) {
 	#appHeader {
-		height: 70vh;
+		height: 60vh;
 	}
 	#appHeader #appHeaderPresentation #name {
 		font-size: 3.2em;
@@ -75,9 +75,6 @@
 }
 
 @media only screen and (min-width: 992px) {
-	#appHeader {
-		height: 60vh;
-	}
 	#appHeader #appHeaderPresentation {
 		height: 250px;
 	}
@@ -87,19 +84,7 @@
 }
 
 @media only screen and (min-width: 1200px) {
-	#appHeader {
-		height: 80vh
-	}
 	#appHeader #appHeaderPresentation #name {
 		font-size: 4.5em;
 	}
-}
-
-#appHeader #appHeaderPresentation #name {
-	font-family: nameFont;
-}
-
-@font-face {
-	font-family: nameFont;
-	src: url('../../fonts/ShadowsIntoLight-Regular.ttf');
 }
