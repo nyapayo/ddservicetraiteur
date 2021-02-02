@@ -53,7 +53,7 @@ const Ceremonies = (props) => {
         <div className='ceremonie w3-panel w3-green w3-animate-top w3-padding-16 kalamFont'>
           Cocktails
         </div>
-        <div className='ceremonie w3-panel w3-sand w3-animate-bottom w3-padding-16 kalamFont'>
+        <div className='ceremonie w3-panel w3-animate-bottom w3-padding-16 kalamFont'>
           Et bien d'autres!
         </div>
       </div>

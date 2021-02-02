@@ -1,3 +1,24 @@
 #servicesSection a {
   text-decoration: none;
 }
+
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  margin: 10px 0;
+  font-size: 1em;
+  text-align: center;
+  transition: font-size .2s linear 0s;
+}
+
+.service:hover {
+  font-size: 1.1em;
+}
+
+@media all and (max-width: 600px) {
+  .service {
+    height: 60px;
+  }
+}
