@@ -18,19 +18,76 @@
 
 /* Badge */
 #appHeader #appHeaderPresentation {
-	position: absolute;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
 	align-items: center;
 	align-content: space-around;
-	height: 200px;
-	border-radius: 3px;
-	text-align: center;
 	background-color: #eee;
-	opacity: .8;
-	padding-left: 10px;
-	padding-right: 10px;
+	opacity: .7;
+	padding: 0 10px;
+}
+
+.animName {
+	animation: animVibrateName .8s linear 0s infinite alternate both running, 
+		animChangeNameColor 7s linear 0s infinite alternate both running;
+}
+
+@keyframes animChangeNameColor {
+	0% {
+		color: #4CAF50;
+	}
+	20% {
+		color: #f44336;
+	}
+	40% {
+		color: #673ab7;
+	}
+	60% {
+		color: #9c27b0;
+	}
+	80% {
+		color: #2196F3;
+	}
+	100% {
+		color: #3f51b5;
+	}
+}
+
+@keyframes animVibrateName {
+	0% {
+		transform: rotate(7deg);
+	}
+	10% {
+		transform: rotate(2deg);
+	}
+	20% {
+		transform: rotate(6deg);
+	}
+	30% {
+		transform: rotate(3deg);
+	}
+	40% {
+		transform: rotate(7deg);
+	}
+	50% {
+		transform: rotate(2deg);
+	}
+	60% {
+		transform: rotate(6deg);
+	}
+	70% {
+		transform: rotate(2deg);
+	}
+	80% {
+		transform: rotate(7deg);
+	}
+	90% {
+		transform: rotate(3deg);
+	}
+	100% {
+		transform: rotate(7deg);
+	}
 }
 
 /* 
@@ -45,11 +102,11 @@
 		min-height: 260px;
 	}
 	header#appHeader #appHeaderPresentation {
-		height: 160px;
+		height: 180px;
 		width: 90vw;
 	}
 	#appHeader #appHeaderPresentation #name {
-		font-size: 1.6em;
+		font-size: 1.7em;
 	}
 }
 

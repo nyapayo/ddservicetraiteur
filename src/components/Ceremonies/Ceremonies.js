@@ -29,28 +29,28 @@ const Ceremonies = (props) => {
   });
 
   return (
-    <section className='w3-card w3-panel' id='ceremoniesSection'>
+    <section className='w3-card w3-panel w3-round' id='ceremoniesSection'>
       <h1 className='w3-border-bottom kalamFont'>Pour toutes vos cérémonies: </h1>
       <div className='w3-center w3-xlarge'>
-        <div className='ceremonie w3-panel w3-purple w3-animate-top w3-padding-16 kalamFont'>
+        <div className='ceremonie w3-content w3-panel w3-purple w3-card w3-animate-top w3-padding-16 kalamFont'>
           Mariage
         </div>
         <div className='ceremonie w3-panel w3-white w3-card w3-animate-top w3-padding-16 kalamFont'>
           Bâpteme
         </div>
-        <div className='ceremonie w3-panel w3-blue w3-animate-top w3-padding-16 kalamFont'>
+        <div className='ceremonie w3-panel w3-blue w3-card w3-animate-top w3-padding-16 kalamFont'>
           Messe
         </div>
-        <div className='ceremonie w3-panel w3-black w3-animate-top w3-padding-16 kalamFont'>
+        <div className='ceremonie w3-panel w3-black w3-card w3-animate-top w3-padding-16 kalamFont'>
           Enterrement
         </div>
-        <div className='ceremonie w3-panel w3-pink w3-animate-top w3-padding-16 kalamFont'>
+        <div className='ceremonie w3-panel w3-pink w3-card w3-animate-top w3-padding-16 kalamFont'>
           Anniversaire
         </div>
-        <div className='ceremonie w3-panel w3-black w3-animate-top w3-padding-16 kalamFont'>
+        <div className='ceremonie w3-panel w3-black w3-card w3-animate-top w3-padding-16 kalamFont'>
           Funérailles
         </div>
-        <div className='ceremonie w3-panel w3-green w3-animate-top w3-padding-16 kalamFont'>
+        <div className='ceremonie w3-panel w3-green w3-card w3-animate-top w3-padding-16 kalamFont'>
           Cocktails
         </div>
         <div className='ceremonie w3-panel w3-animate-bottom w3-padding-16 kalamFont'>

@@ -4,9 +4,9 @@ import './Header.css';
 
 const Header = (props) => {
   return (
-		<header id='appHeader'>
-			<div className='w3-card w3-animate-top' id='appHeaderPresentation'>
-				<h1 className='w3-text-purple' id='name'>
+		<header className='' id='appHeader'>
+			<div className='w3-card w3-round w3-animate-top' id='appHeaderPresentation'>
+				<h1 className='animName' id='name'>
 					&#127799; &#127804; 
 					<strong className='kalamFont'>
 						D&D Service-Traiteur
@@ -17,7 +17,7 @@ const Header = (props) => {
 					<i className='kalamFont'>
 						<strong>Vous satisfaire est notre plaisir!</strong>
 					</i>   
-					&#x1F609;
+					 &#x1F609;
 				</p>
 			</div>
 		</header>
