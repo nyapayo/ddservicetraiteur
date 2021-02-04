@@ -29,8 +29,7 @@
 }
 
 .animName {
-	animation: animVibrateName .8s linear 0s infinite alternate both running, 
-		animChangeNameColor 7s linear 0s infinite alternate both running;
+	animation: animChangeNameColor 7s linear 0s infinite alternate both running;
 }
 
 @keyframes animChangeNameColor {
@@ -51,42 +50,6 @@
 	}
 	100% {
 		color: #3f51b5;
-	}
-}
-
-@keyframes animVibrateName {
-	0% {
-		transform: rotate(7deg);
-	}
-	10% {
-		transform: rotate(2deg);
-	}
-	20% {
-		transform: rotate(6deg);
-	}
-	30% {
-		transform: rotate(3deg);
-	}
-	40% {
-		transform: rotate(7deg);
-	}
-	50% {
-		transform: rotate(2deg);
-	}
-	60% {
-		transform: rotate(6deg);
-	}
-	70% {
-		transform: rotate(2deg);
-	}
-	80% {
-		transform: rotate(7deg);
-	}
-	90% {
-		transform: rotate(3deg);
-	}
-	100% {
-		transform: rotate(7deg);
 	}
 }
 

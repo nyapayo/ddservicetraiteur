@@ -1,3 +1,15 @@
+.descriptionService::first-letter {
+  font-size: 2em;
+  font-family: dancingScript;
+  font-weight: bold;
+}
+
+.descriptionService {
+  text-indent: 1em;
+  text-align: left;
+  text-overflow: ellipsis;
+}
+
 /* 
   Change the whole font size of the h1 element 
   if the viewport size is less than 600px 
@@ -51,4 +63,47 @@
 @font-face {
   font-family: shadowFont;
   src: url('fonts/ShadowsIntoLight-Regular.ttf');
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 1.02em;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.1em;
+  transition: all .4s;
+}
+
+.active, .accordion:hover {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.accordion::after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.accordion:hover::after {
+  color: #fff;
+}
+
+.active::after {
+  content: '\2212';
+  color: #fff;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .2s ease-out 0s;
 }
